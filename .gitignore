@@ -1,0 +1,20 @@
+
+# Node
+node_modules/
+dist/
+
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated ML files (can be recreated)
+ml-service/houses.csv
+ml-service/model.joblib
+
+# OS / editor
+.DS_Store
+.vscode/

@@ -1,0 +1,5 @@
+## stage one - ML Service
+ - data collection script
+ - model training script
+ - set up virtual environment
+ - train a machine learning model
