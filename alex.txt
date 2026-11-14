@@ -3,3 +3,5 @@
  - model training script
  - set up virtual environment
  - train a machine learning model
+
+end of stage one
