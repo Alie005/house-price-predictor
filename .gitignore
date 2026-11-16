@@ -18,4 +18,10 @@ ml-service/model.joblib
 # OS / editor
 .DS_Store
 .vscode/
-alex.txt
+
+node_modules/
+.env
+venv/
+__pycache__/
+*.pyc
+*.joblib

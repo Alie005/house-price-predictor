@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS predictions (
+    id SERIAL PRIMARY KEY,
+    size_sqm DOUBLE PRECISION NOT NULL,
+    bedrooms INTEGER NOT NULL,
+    age_years DOUBLE PRECISION NOT NULL,
+    predicted_price_k DOUBLE PRECISION NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
